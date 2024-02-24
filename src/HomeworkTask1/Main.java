@@ -9,6 +9,10 @@ public class Main {
         TV tv = new TV("Samsung");
         Channels channels = new Channels();
 
+        for (int i = 0; i < ; i++) {
+            
+        }
+
 
 
 
