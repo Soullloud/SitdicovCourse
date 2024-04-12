@@ -19,5 +19,15 @@ public class Main {
 
         double scalarProduct = v1.scalarProduct(v2);
         System.out.println("Скалярное производное = " + scalarProduct);
+
+        System.out.println();
+
+        RationalFraction rationalFraction = new RationalFraction(2, 4);
+
+        System.out.println("Сумма = " + rationalFraction.add(rationalFraction));
+        System.out.println("Разность = " + rationalFraction.sub(rationalFraction));
+        System.out.println("Умножение = " + rationalFraction.mult(rationalFraction));
+        System.out.println("Деление " + rationalFraction.div(rationalFraction));
+        System.out.println("Десятичное значение " + rationalFraction.value());
     }
 }
